@@ -1,33 +1,21 @@
-HELP.md
+# Java / Spring
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+*.log
+.DS_Store
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IntelliJ / Eclipse / VSCode
+.idea/
 *.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+.settings/
+.classpath
+.project
 .vscode/
+
+# Node / Vite
+banking-ui/node_modules/
+banking-ui/dist/
+banking-ui/.env.local
+banking-ui/.env.*.local
+
+# OS
+Thumbs.db
